@@ -1,5 +1,5 @@
 terraform {
-  backend "s3 " {
+  backend "s3" {
     bucket = "terraform-malleswari"
     key = "misc/jenkins-ip/terraform.tfstate"
     region = "us-east-1"
